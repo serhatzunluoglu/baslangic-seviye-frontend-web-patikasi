@@ -1,0 +1,41 @@
+html,body{
+    margin: 0;
+    background-color: #E9ECEF;
+}
+.nav-bar{
+    text-align: left;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 1%;
+    height: max-content;
+    margin-bottom: 70px;
+}
+
+.nav-bar a{
+    color: white;
+    margin-right: 1%;
+}
+
+.nav-bar a:first-child{
+    font-size: 20px;
+    color: red;
+    margin-right: 1%;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar a:hover:nth-child(n+2){
+    color: rgb(216, 216, 216);
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+
+.card{
+    margin-bottom: 40px;
+}
+
+.card img{
+    width: 17.9rem;
+    height: 150px;
+}

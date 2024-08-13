@@ -1,0 +1,48 @@
+body{
+    background-color: bisque;
+}
+
+header{
+    width: 85%;
+    text-align: justify;
+}
+
+.aside_left{
+    width: 35%;
+    height: 400px;
+    display: inline-block;
+}
+
+.aside_right{
+    width: 65%;
+    height: 400px;
+    padding-top: 0px;
+    display: inline-block;
+    float: right;
+}
+
+.aside_right_info{
+    text-decoration:underline;
+}
+
+span p{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+span p b{
+    color: rgb(126, 53, 53);
+}
+
+.baslik{
+    width: max-content;
+    background-color: rgb(184, 65, 65);
+    border-radius: 10px;
+    color: white;
+}
+
+.right-bottom{
+    float: right;
+    margin-right: 400px;
+    font-size: 25px;
+}

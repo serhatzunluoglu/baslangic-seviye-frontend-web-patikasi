@@ -1,0 +1,55 @@
+body,html{
+    margin: 0px;
+}
+
+.topbar{  /*search kısmının olduğu div'e özelleştirmeler yaptık*/
+    margin-left: 8%;
+    width: 84%;
+    height: 63px;
+    text-align: center;
+    background-color: rgba(180, 248, 245, 0.829);
+
+}
+
+.input-search{  /*search inputuna genişlik verdik*/
+    width: 320px;
+}   
+
+.div-1{ /*sol attaki kutucuğa css uyguladık*/
+    padding-top: 10px;
+    margin-top: 2px;
+    width: 30%;
+    height: 65px;
+    margin-left: 8%;
+    text-align: center;
+    background-color: rgb(98, 230, 223);
+    float:left;
+}
+
+.div-2{ /*orta alt kısımdaki kutucuğa css uyguladık*/
+    margin: 2px;
+    width: 17.6%;
+    height: 75px;
+    text-align: center;
+    line-height: 18px;
+    background-color: rgb(80, 212, 206);
+    font-size: small;
+    float: left;
+}
+
+.div-3{ /*e-mail girme kısmının olduğu kutucuğa css uyguladık*/
+    margin-top: 2px;
+    width: 36.1%;
+    height: 75px;
+    text-align: center;
+    font-size: small;
+    background-color: rgb(32, 168, 161);
+    float:left;
+
+}
+
+.copyright{
+    padding-top: 23px;
+    padding-left: 100px;
+      
+}

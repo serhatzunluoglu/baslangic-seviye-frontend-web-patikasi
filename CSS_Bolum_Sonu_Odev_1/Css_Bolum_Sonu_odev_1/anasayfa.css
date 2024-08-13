@@ -1,0 +1,58 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+    background-color: rgb(194, 194, 194);
+}
+
+.hed-bar{
+    padding: 10px;
+    width: 100%;
+    background-color: darkgrey;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+}
+.hed-bar a{
+    color: black;
+    padding: 8px;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-left: white 2px solid;
+}
+
+.hed-bar a:hover{
+    color: white;
+    padding: 8px;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-left: white 2px solid;
+
+}
+
+
+.box{
+    color:lightcoral;
+    background-color: white;
+    font-size: 25px;
+    width: 370px;
+    height: 370px;
+    border: 1px solid;
+    border-radius:10px;
+    margin-left:60px;
+    margin-top: 60px;
+    padding: 0px 15px;
+    box-shadow:3px 3px 10px black;
+    float: left;
+
+}
+
+.box img{
+    width: 80%;
+    height: 60%;
+    box-shadow: 2px 2px 4px black;
+}
+

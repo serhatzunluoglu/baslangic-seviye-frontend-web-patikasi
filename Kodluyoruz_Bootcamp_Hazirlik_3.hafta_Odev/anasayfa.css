@@ -1,0 +1,55 @@
+html,body{
+    margin: 0;
+    background-color: #E9ECEF;
+    
+}
+
+.nav-bar{
+    text-align: left;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 1%;
+    height: max-content;
+}
+
+.nav-bar a{
+    color: white;
+    margin-right: 1%;
+}
+
+.nav-bar a:first-child{
+    font-size: 20px;
+    color: red;
+    margin-right: 1%;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar a:hover:nth-child(n+2){
+    color: rgb(216, 216, 216);
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+h1,h2,p,li{
+    text-align: center;
+}
+
+.buton{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 45%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.buton:hover{
+    background-color: white;
+    text-decoration: none;
+}
+
+h2{
+    color: rgb(207, 73, 73);
+}

@@ -1,0 +1,524 @@
+body{
+    padding: 5px;
+    background-color: #FAFAFA;
+    min-width: 400px;
+    overflow-x: hidden;
+    
+}
+
+.navbar{
+    height: 54px;
+    background-color:white !important;
+    min-width:550px;
+}
+
+
+.nav-search{
+    margin-left: 16%;
+    z-index: 2;
+}
+
+input::placeholder {
+    font-weight: bold;
+    background-image:url("images/search-solid.svg");
+    background-repeat: no-repeat ;
+    background-size: 14px;
+    background-position:center;
+    background-position: left;
+    text-align: center;
+    
+}
+
+
+.form-control:focus{
+    box-shadow: none;
+    border: 0.2px solid rgb(211, 211, 211);
+}
+
+.middle-area-story{
+    max-height: 200px !important;
+}
+
+
+
+.stories{
+    margin-right: 20%;
+    min-width: 400px;
+    max-width: 400px;
+    height: 85px;
+    background-color: white;
+    border: 0.2px solid rgb(211, 211, 211);
+    border-width: thin;
+    box-shadow: 0.5px 0.5px 3px #cdcdcd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.stories::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    background-color: #dadada;
+    
+}
+
+.stories-parent{
+    width: 50%;
+}
+
+.instagram-text-logo{
+    width: 100px;
+    margin-left:192px;
+}
+
+.account{
+    flex-direction: row;
+    font-size: small;
+    font-weight: 500;
+    font-size: 12px;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background:
+    radial-gradient(rgba(0,0,0,0.15) 0%, transparent 0),
+    radial-gradient( white 65%, transparent 0),
+    linear-gradient(to top right,rgb(244, 225, 12),rgb(255, 98, 0),rgb(192, 20, 255));
+}
+
+.account img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: circle(45%);
+
+}
+
+.middle-area-post{
+    background-color: white;
+    border: 2px solid rgb(211, 211, 211);
+    max-height: 600px !important;
+    max-width: 400px;
+
+}
+
+.post{
+    display: flex;
+}
+
+.post-head{
+    margin-top: 10px;
+    min-height: 40px;
+    
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+
+
+.post-head img{
+    border-radius: 50%;
+    width: 30px;
+    padding: 0px !important;
+}
+
+
+.fa-regular{
+    margin-right: 3%;
+}
+
+.post-img img{
+    width: 100%;
+    padding: none !important;
+}
+
+.post-comment{
+
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.post-comment img{
+    width: 20px;
+    border-radius: 50%;
+
+}
+
+.post-comment-img{
+    width: 20px;
+    border-radius: 50%;
+
+}
+
+.comment-info{
+    font-size: 12px;
+}
+
+.comment-share{
+    margin-top: 10px;
+    background-color: #efeeee;
+    border-top: 1px solid #cdcdcd;
+    font-size: 13px;
+    padding: 10px;
+}
+
+
+/*Right-panel-start*/
+
+@media screen and (min-width: 1420px){
+    .right-panel{
+        width: 250px;
+        height: 300px;
+        background-color: transparent;
+        position: fixed;
+        top: 15%;
+        right: 20%;
+        
+        
+    }
+
+    .right-panel-body{
+        float: left;
+    }
+
+
+    .right-panel ul{
+        float: left;
+        list-style-type: none;
+        font-size: 13px;
+        padding-inline: 5px;
+        padding-top: 5px;
+        
+    }
+    .right-panel-profile-img{
+        width: 50px;
+        border: 1.6px solid black;
+        border-radius: 50%;
+        margin-right:20px ;
+    }
+
+    .right-panel .öneri{
+        color: darkcyan;
+        float: left;
+        text-align:left;
+        margin-top: 10px;
+    }
+    .right-panel .tümünügör{
+        color: black;
+        margin-right: 2px;
+        margin-top: 10px;
+        display:inline-block;
+        position: absolute;
+        right: 0;
+        font-size: 12px;
+    }
+
+    .right-panel-body-img{
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+
+    .takipet{
+        position: absolute;
+        right: 1px;
+        color: #0095f6;
+        margin-top: 3px;
+        font-size: 12px;
+    }
+    .right-panel-body-ul li{
+        margin-bottom: 10px;
+    }
+
+    .right-panel-link{
+        display: inline-block;
+    }
+
+    .right-panel-links{
+        margin-left: 4px;
+        text-decoration: none;
+        color: #0095f6;
+        display: inline-block;
+        color: lightgray; 
+        font-size: 11px; 
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+}
+
+
+
+@media screen and (min-width: 1320px) and (max-width: 1420px) {
+    .right-panel{
+        width: 250px;
+        height: 300px;
+        background-color: transparent;
+        position: fixed;
+        top: 15%;
+        right: 17%;
+        
+    }
+
+    .right-panel-body{
+        float: left;
+    }
+
+
+    .right-panel ul{
+        float: left;
+        list-style-type: none;
+        font-size: 13px;
+        padding-inline: 5px;
+        padding-top: 5px;
+        
+    }
+    .right-panel-profile-img{
+        width: 50px;
+        border: 1.6px solid black;
+        border-radius: 50%;
+        margin-right:20px ;
+    }
+
+    .right-panel .öneri{
+        color: darkcyan;
+        float: left;
+        text-align:left;
+        margin-top: 10px;
+    }
+    .right-panel .tümünügör{
+        color: black;
+        margin-right: 2px;
+        margin-top: 10px;
+        display:inline-block;
+        position: absolute;
+        right: 0;
+        font-size: 12px;
+    }
+
+    .right-panel-body-img{
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+
+    .takipet{
+        position: absolute;
+        right: 1px;
+        color: #0095f6;
+        margin-top: 3px;
+        font-size: 12px;
+    }
+    .right-panel-body-ul li{
+        margin-bottom: 10px;
+    }
+
+    .right-panel-link{
+        display: inline-block;
+    }
+
+    .right-panel-links{
+        margin-left: 4px;
+        text-decoration: none;
+        color: #0095f6;
+        display: inline-block;
+        color: lightgray; 
+        font-size: 11px; 
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 1170px) and (max-width: 1320px) {
+    .right-panel{
+        width: 250px;
+        height: 300px;
+        background-color: transparent;
+        position: fixed;
+        top: 15%;
+        right: 10%;
+        
+    }
+
+    .right-panel-body{
+        float: left;
+    }
+
+
+    .right-panel ul{
+        float: left;
+        list-style-type: none;
+        font-size: 13px;
+        padding-inline: 5px;
+        padding-top: 5px;
+        
+    }
+    .right-panel-profile-img{
+        width: 50px;
+        border: 1.6px solid black;
+        border-radius: 50%;
+        margin-right:20px ;
+    }
+
+    .right-panel .öneri{
+        color: darkcyan;
+        float: left;
+        text-align:left;
+        margin-top: 10px;
+    }
+    .right-panel .tümünügör{
+        color: black;
+        margin-right: 2px;
+        margin-top: 10px;
+        display:inline-block;
+        position: absolute;
+        right: 0;
+        font-size: 12px;
+    }
+
+    .right-panel-body-img{
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+
+    .takipet{
+        position: absolute;
+        right: 1px;
+        color:#0095f6;
+        margin-top: 3px;
+        font-size: 12px;
+    }
+    .right-panel-body-ul li{
+        margin-bottom: 10px;
+    }
+
+    .right-panel-link{
+        display: inline-block;
+    }
+
+    .right-panel-links{
+        margin-left: 4px;
+        text-decoration: none;
+        color: #0095f6;
+        display: inline-block;
+        color: lightgray; 
+        font-size: 11px; 
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1170px) {
+    .right-panel{
+        width: 250px;
+        height: 300px;
+        background-color: transparent;
+        position: fixed;
+        top: 15%;
+        right: 5%;
+        
+    }
+
+    .right-panel-body{
+        float: left;
+    }
+
+
+    .right-panel ul{
+        float: left;
+        list-style-type: none;
+        font-size: 13px;
+        padding-inline: 5px;
+        padding-top: 5px;
+        
+    }
+    .right-panel-profile-img{
+        width: 50px;
+        border: 1.6px solid black;
+        border-radius: 50%;
+        margin-right:20px ;
+    }
+
+    .right-panel .öneri{
+        color: darkcyan;
+        float: left;
+        text-align:left;
+        margin-top: 10px;
+    }
+    .right-panel .tümünügör{
+        color: black;
+        margin-right: 2px;
+        margin-top: 10px;
+        display:inline-block;
+        position: absolute;
+        right: 0;
+        font-size: 12px;
+    }
+
+    .right-panel-body-img{
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+
+    .takipet{
+        position: absolute;
+        right: 1px;
+        color:#0095f6;
+        margin-top: 3px;
+        font-size: 12px;
+    }
+    .right-panel-body-ul li{
+        margin-bottom: 10px;
+    }
+
+    .right-panel-link{
+        display: inline-block;
+    }
+
+    .right-panel-links{
+        margin-left: 4px;
+        text-decoration: none;
+        color: #0095f6;
+        display: inline-block;
+        color: lightgray; 
+        font-size: 11px; 
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+}
+
+/*Right-panel-end*/
+
+
+@media screen and (min-width: 1000px) and (max-width: 2000px) {
+    .form-control{
+        width: 100% !important;
+        min-width: max-content;
+    }
+    .navbar-collapse ul li:nth-child(n+2){
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (max-width: 1170px) {
+    .right-panel{
+        display: none;
+    }
+}
+
+
+
