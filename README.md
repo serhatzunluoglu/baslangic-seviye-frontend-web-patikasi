@@ -52,20 +52,22 @@ This repository contains:
 ---
 
 
+
+
 # Başlangıç Seviye Frontend Web Development Patikası
 
 Bu repo, **Patika.dev** platformunda tamamladığım **“Başlangıç Seviye Frontend Web Development Patikası”** eğitimine ait tüm çalışmalarımı içermektedir. Eğitim süreci boyunca HTML, CSS ve JavaScript kullanarak web geliş­tirmenin temellerini öğrendim ve uygulamalı alıştırmalar, testler ile bilgimi pekiştirdim.  
-(https://academy.patika.dev/paths/baslangic-seviye-frontend-web-development-patikasi) :contentReference[oaicite:1]{index=1}
+(https://academy.patika.dev/paths/baslangic-seviye-frontend-web-development-patikasi)
 
 ---
 
 ## 📚 Eğitim Bilgileri
 
-- Süre: **77 saatlik ders içeriği** :contentReference[oaicite:2]{index=2}  
-- Alıştırmalar: **25 alıştırma** :contentReference[oaicite:3]{index=3}  
-- Testler: **106 test** :contentReference[oaicite:4]{index=4}  
-- Katılımcı sayısı: 136.889 kişiyle başlamış :contentReference[oaicite:5]{index=5}  
-- Online ve ücretsiz erişim imkânı :contentReference[oaicite:6]{index=6}  
+- Süre: **77 saatlik ders içeriği** 
+- Alıştırmalar: **25 alıştırma** 
+- Testler: **106 test** 
+- Katılımcı sayısı: 136.889 kişiyle başlamış
+- Online ve ücretsiz erişim imkânı
 
 ---
 
@@ -74,11 +76,11 @@ Bu repo, **Patika.dev** platformunda tamamladığım **“Başlangıç Seviye Fr
 Eğitimin başlıca ele aldığı konular şunlardır:
 
 - **Temel Dersler**: Web geliştirme dünyasının temelleri, programlama mantığı  
-- **Geliştirme Araçları**: Visual Studio Code kullanımı, versiyon kontrolü (GIT) :contentReference[oaicite:8]{index=8}  
-- **HTML**: Temel etiketler, semantik HTML kullanımı, form & tablo yapılandırması :contentReference[oaicite:9]{index=9}  
-- **CSS**: Seçiciler, Box Model, Flexbox, responsive tasarım, temel stil teknikleri :contentReference[oaicite:10]{index=10}  
-- **JavaScript**: Değişkenler, fonksiyonlar, döngüler, DOM manipülasyonu, olay yönetimi :contentReference[oaicite:11]{index=11}  
-- **Ek Teknolojiler**: Bootstrap gibi çerçeveler ve geliştirici araçları :contentReference[oaicite:13]{index=13}  
+- **Geliştirme Araçları**: Visual Studio Code kullanımı, versiyon kontrolü (GIT)
+- **HTML**: Temel etiketler, semantik HTML kullanımı, form & tablo yapılandırması 
+- **CSS**: Seçiciler, Box Model, Flexbox, responsive tasarım, temel stil teknikleri
+- **JavaScript**: Değişkenler, fonksiyonlar, döngüler, DOM manipülasyonu, olay yönetimi
+- **Ek Teknolojiler**: Bootstrap gibi çerçeveler ve geliştirici araçları
 
 ---
 
